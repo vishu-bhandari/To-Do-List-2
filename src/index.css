@@ -150,3 +150,18 @@ ol li {
   transform: scale(1.2);
 }
 
+
+.deleteIcon {
+  border: 1px solid #8566aa;
+  border-radius: 50%;
+  color: #8566aa ; 
+  font-size: 30px; 
+  margin-right: 10px; 
+  cursor: pointer; 
+  transition: color 0.3s ease; 
+
+  
+  &:hover {
+    color: crimson; /* Change the color on hover */
+  }
+}
